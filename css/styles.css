@@ -1,0 +1,25 @@
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.nav-list,
+.userMenu {
+  display: flex;
+}
+
+.nav-list a {
+  padding: 67px 14px;
+  background: tomato;
+}
+
+.nav-list li: :not(:last-child) {
+  margin: 20px;
+}
+.nav-list a:hover,
+.nav-list a:focus {
+  background: tomato;
+}
+
+.user
